@@ -1,8 +1,101 @@
-.table {
-  padding-top: 2px;
-  margin-top: 30px;
-  margin-left: 20px;
-  padding-left: 20px;
-  padding-bottom: 20px;
-  padding-right: 10px;
+.main {
+  border: 5px rgb(255, 255, 255) solid;
+  margin: auto;
+  width: 450px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  height: 500px;
+}
+.main h1 {
+  color: rgb(0, 0, 0);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.row-1 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.row-1 input {
+  padding: 5px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(0, 0, 0),
+    rgb(0, 0, 0)
+  );
+}
+.row-2 {
+  margin-right: 9%;
+  width: 89px !important;
+  padding: 20px;
+}
+.row-2 input {
+  margin-left: 12%;
+  width: 375px !important;
+  padding: 5px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(0, 0, 0),
+    rgb(0, 0, 0)
+  );
+}
+.row-3 {
+  margin-right: 9%;
+  width: 89px !important;
+  padding: 20px;
+}
+.row-3 input {
+  margin-left: 12%;
+  width: 375px !important;
+  padding: 5px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(0, 0, 0),
+    rgb(0, 0, 0)
+  );
+  box-shadow: 1px 1px, 0 0 200px 40px #fff;
+}
+.row-4 {
+  margin-right: 9%;
+  width: 89px !important;
+  padding: 20px;
+}
+.row-4 input {
+  margin-left: 12%;
+  width: 375px !important;
+  padding: 5px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(0, 0, 0),
+    rgb(0, 0, 0)
+  );
+}
+.row-5 {
+  margin-right: 9%;
+  width: 89px !important;
+  padding: 20px;
+}
+.row-5 input {
+  margin-left: 12%;
+  width: 375px !important;
+  padding: 5px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(0, 0, 0),
+    rgb(0, 0, 0)
+  );
+}
+.create-account-button {
+  margin-left: 63%;
+  width: 3000px !important;
+  padding: 20px;
+}
+.create-account {
+  padding: 10px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(255, 0, 0, 0.904),
+    rgb(238, 39, 39)
+  );
+  border-radius: 50px;
 }
